@@ -40,6 +40,7 @@
 		1AB830BF2322AA1500F51972 /* CostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830BE2322AA1500F51972 /* CostItem.swift */; };
 		1AB830C12322BAFB00F51972 /* NewCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830C02322BAFB00F51972 /* NewCostView.swift */; };
 		1AC3712423B7634C008D28AE /* DefaultItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3712323B7634C008D28AE /* DefaultItems.swift */; };
+		1AC3712623B76AC6008D28AE /* To-do-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3712523B76AC6008D28AE /* To-do-list.swift */; };
 		1AD91AC6232CFC5900810AFF /* AboutContactDeveloperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */; };
 		1AD91AC8232D088200810AFF /* AboutDonateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC7232D088200810AFF /* AboutDonateButton.swift */; };
 		1AD91ACA232D357900810AFF /* AboutDonateDeveloperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */; };
@@ -113,6 +114,7 @@
 		1AB830BE2322AA1500F51972 /* CostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostItem.swift; sourceTree = "<group>"; };
 		1AB830C02322BAFB00F51972 /* NewCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCostView.swift; sourceTree = "<group>"; };
 		1AC3712323B7634C008D28AE /* DefaultItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultItems.swift; sourceTree = "<group>"; };
+		1AC3712523B76AC6008D28AE /* To-do-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To-do-list.swift"; sourceTree = "<group>"; };
 		1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutContactDeveloperCard.swift; sourceTree = "<group>"; };
 		1AD91AC7232D088200810AFF /* AboutDonateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDonateButton.swift; sourceTree = "<group>"; };
 		1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDonateDeveloperCard.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		1AB830822322A9B500F51972 = {
 			isa = PBXGroup;
 			children = (
+				1AC3712523B76AC6008D28AE /* To-do-list.swift */,
 				1AB8308D2322A9B500F51972 /* OrangeCostBook */,
 				1AB830A42322A9B600F51972 /* OrangeCostBookTests */,
 				1AB830AF2322A9B700F51972 /* OrangeCostBookUITests */,
@@ -477,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A872A1423694D7E00152430 /* NewCostViewController.swift in Sources */,
+				1AC3712623B76AC6008D28AE /* To-do-list.swift in Sources */,
 				1A3A00E12372BD5300A93E48 /* SelectCostTypeViewController.swift in Sources */,
 				1AB830C12322BAFB00F51972 /* NewCostView.swift in Sources */,
 				1AE1AAA02357304E0039E15E /* QUNavigationButton.swift in Sources */,
