@@ -1,0 +1,258 @@
+{
+    "types": [
+        {
+            "id": 1,
+            "color": "#E4BA6E",
+            "icon": "typeBus",
+            "string": "CostType_Bus",
+            "group": "CostType_GroupTravel"
+        }, {
+            "id": 2,
+            "color": "#4A90E2",
+            "icon": "typeMetro",
+            "string": "CostType_Metro",
+            "group": "CostType_GroupTravel"
+        }, {
+            "id": 3,
+            "color": "#52C3AA",
+            "icon": "typeTaxi",
+            "string": "CostType_Taxi",
+            "group": "CostType_GroupTravel"
+        }, {
+            "id": 4,
+            "color": "#5291C3",
+            "icon": "typeAirplane",
+            "string": "CostType_Airplane",
+            "group": "CostType_GroupTravel"
+        }, {
+            "id": 5,
+            "color": "#55A080",
+            "icon": "typeTrain",
+            "string": "CostType_Train",
+            "group": "CostType_GroupTravel"
+        }, {
+            "id": 6,
+            "cId": "i_boat",
+            "color": "#556BA0",
+            "icon": "typeBoat",
+            "string": "CostType_Boat",
+            "group": "CostType_GroupTravel"
+        }, {
+            "id": 7,
+            "cId": "i_borrow",
+            "color": "#629D65",
+            "icon": "typeBorrow",
+            "string": "CostType_Borrow",
+            "group": "CostType_GroupFinancial"
+        }, {
+            "id": 8,
+            "cId": "i_return",
+            "color": "#454B53",
+            "icon": "typeReturn",
+            "string": "CostType_Return",
+            "group": "CostType_GroupFinancial"
+        }, {
+            "id": 9,
+            "cId": "i_gift",
+            "color": "#E29D61",
+            "icon": "typeGift",
+            "string": "CostType_Gift",
+            "group": "CostType_GroupFinancial"
+        }, {
+            "id": 10,
+            "cId": "i_redPacket",
+            "color": "#E27161",
+            "icon": "typeRedPacket",
+            "string": "CostType_RedPacket",
+            "group": "CostType_GroupFinancial"
+        }, {
+            "id": 11,
+            "cId": "i_clothes",
+            "color": "#DAB891",
+            "icon": "typeClothes",
+            "string": "CostType_Clothes",
+            "group": "CostType_GroupDaily"
+        }, {
+            "id": 12,
+            "cId": "i_daily",
+            "color": "#75B1CD",
+            "icon": "typeDaily",
+            "string": "CostType_Daily",
+            "group": "CostType_GroupDaily"
+        }, {
+            "id": 13,
+            "cId": "i_cosmetic",
+            "color": "#CD7575",
+            "icon": "typeCosmetic",
+            "string": "CostType_Cosmetic",
+            "group": "CostType_GroupDaily"
+        }, {
+            "id": 14,
+            "cId": "i_shopping",
+            "color": "#7594CD",
+            "icon": "typeShopping",
+            "string": "CostType_Shopping",
+            "group": "CostType_GroupDaily"
+        }, {
+            "id": 15,
+            "cId": "i_medical",
+            "color": "#ED6D6D",
+            "icon": "typeMedical",
+            "string": "CostType_Medical",
+            "group": "CostType_GroupDaily"
+        }, {
+            "id": 16,
+            "cId": "i_game",
+            "color": "#7CAFFE",
+            "icon": "typeGame",
+            "string": "CostType_Game",
+            "group": "CostType_GroupEntertainment"
+        }, {
+            "id": 17,
+            "cId": "i_book",
+            "color": "#FE947C",
+            "icon": "typeBook",
+            "string": "CostType_Book",
+            "group": "CostType_GroupEntertainment"
+        }, {
+            "id": 18,
+            "cId": "i_ticket",
+            "color": "#6A4F95",
+            "icon": "typeTicket",
+            "string": "CostType_Ticket",
+            "group": "CostType_GroupEntertainment"
+        }, {
+            "id": 19,
+            "cId": "i_phone",
+            "color": "#749CC2",
+            "icon": "typePhone",
+            "string": "CostType_Phone",
+            "group": "CostType_GroupEntertainment"
+        }, {
+            "id": 20,
+            "cId": "i_app_store",
+            "color": "#1CA0F8",
+            "icon": "typeAppStore",
+            "string": "CostType_AppStore",
+            "hide": [
+                "android",
+                "windows"
+            ],
+            "group": "CostType_GroupEntertainment"
+        }, {
+            "id": 21,
+            "cId": "i_google_play_store",
+            "color": "#4DB6AC",
+            "icon": "typeGooglePlayStore",
+            "string": "CostType_GooglePlayStore",
+            "hide": [
+                "ios",
+                "ipados",
+                "watchos",
+                "macos"
+            ],
+            "group": "CostType_GroupEntertainment"
+        }, {
+            "id": 22,
+            "cId": "i_noodles",
+            "color": "#E9D199",
+            "icon": "typeNoodles",
+            "string": "CostType_Noodles",
+            "group": "CostType_GroupFoods"
+        }, {
+            "id": 23,
+            "cId": "i_soup",
+            "color": "#E57070",
+            "icon": "typeSoup",
+            "string": "CostType_Soup",
+            "group": "CostType_GroupFoods"
+        }, {
+            "id": 24,
+            "cId": "i_bread",
+            "color": "#E59070",
+            "icon": "typeBread",
+            "string": "CostType_Bread",
+            "group": "CostType_GroupFoods"
+        }, {
+            "id": 25,
+            "cId": "i_fruit",
+            "color": "#E57070",
+            "icon": "typeFruit",
+            "string": "CostType_Fruit",
+            "group": "CostType_GroupFoods"
+        }, {
+            "id": 26,
+            "cId": "i_snack",
+            "color": "#E5A570",
+            "icon": "typeSnack",
+            "string": "CostType_Snack",
+            "group": "CostType_GroupFoods"
+        }
+    ],
+    
+    "currencies": [
+        {
+            "id": 1,
+            "name": "cny",
+            "title": "Currency_CNY",
+            "emoji": "🇨🇳",
+            "symbol": "¥"
+        },
+        {
+            "id": 2,
+            "name": "hkd",
+            "title": "Currency_HKD",
+            "emoji": "🇭🇰",
+            "symbol": "$"
+        },
+        {
+            "id": 3,
+            "name": "usd",
+            "title": "Currency_USD",
+            "emoji": "🇺🇸",
+            "symbol": "$"
+        },
+        {
+            "id": 4,
+            "name": "krw",
+            "title": "Currency_KRW",
+            "emoji": "🇰🇷",
+            "symbol": "₩"
+        },
+        {
+            "id": 5,
+            "name": "jpy",
+            "title": "Currency_JPY",
+            "emoji": "🇯🇵",
+            "symbol": "¥"
+        },
+        {
+            "id": 6,
+            "name": "sgd",
+            "title": "Currency_SGD",
+            "emoji": "🇸🇬",
+            "symbol": "$"
+        },
+        {
+            "id": 7,
+            "name": "eur",
+            "title": "Currency_EUR",
+            "emoji": "🇪🇺",
+            "symbol": "€"
+        },
+        {
+            "id": 8,
+            "name": "gbp",
+            "title": "Currency_GBP",
+            "emoji": "🇬🇧",
+            "symbol": "￡"
+        },
+        {
+            "id": 9,
+            "name": "cad",
+            "title": "Currency_CAD",
+            "emoji": "🇨🇦",
+            "symbol": "$"
+        }
+    ]
+}

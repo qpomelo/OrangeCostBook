@@ -3,10 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A126F6523530C1B008C7CF1 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A126F6423530C1B008C7CF1 /* Types.swift */; };
+		1A126F6823530DBB008C7CF1 /* TimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A126F6723530DBB008C7CF1 /* TimeExtension.swift */; };
+		1A126F6A23530DEB008C7CF1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A126F6923530DEB008C7CF1 /* StringExtension.swift */; };
+		1A126F6D2353214C008C7CF1 /* InternalTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A126F6C2353214C008C7CF1 /* InternalTypes.json */; };
+		1A126F702353252C008C7CF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A126F722353252C008C7CF1 /* Localizable.strings */; };
+		1A356B88232CDFB9006C092A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A356B87232CDFB9006C092A /* AboutView.swift */; };
+		1A3A00E12372BD5300A93E48 /* SelectCostTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A00E02372BD5300A93E48 /* SelectCostTypeViewController.swift */; };
+		1A3A00E42372C77700A93E48 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3A00E32372C77700A93E48 /* SnapKit */; };
+		1A4A7ACC232CFB9C008FC0C5 /* AboutAppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A7ACB232CFB9C008FC0C5 /* AboutAppCard.swift */; };
+		1A8729F82369212900152430 /* ClassicViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8729F72369212900152430 /* ClassicViews.storyboard */; };
+		1A872A0D236923D800152430 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A0C236923D800152430 /* Config.swift */; };
+		1A872A10236925D600152430 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 1A872A0F236925D600152430 /* SQLite */; };
+		1A872A122369268A00152430 /* CostBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A112369268A00152430 /* CostBook.swift */; };
+		1A872A1423694D7E00152430 /* NewCostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A1323694D7E00152430 /* NewCostViewController.swift */; };
+		1A872A1623694F4000152430 /* SwiftUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A1523694F4000152430 /* SwiftUIExtension.swift */; };
+		1A9203A12352E8ED0031A823 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9203A32352E8ED0031A823 /* InfoPlist.strings */; };
+		1A96B99223535A9600371DE0 /* LockProtectSettingsQuickUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B99123535A9600371DE0 /* LockProtectSettingsQuickUnlockView.swift */; };
+		1A96B99423535A9E00371DE0 /* LockProtectSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B99323535A9D00371DE0 /* LockProtectSettingView.swift */; };
+		1A96B9962356BB6300371DE0 /* CostTypeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B9952356BB6300371DE0 /* CostTypeSelectView.swift */; };
+		1A96B9982356BBEB00371DE0 /* CostIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B9972356BBEB00371DE0 /* CostIcon.swift */; };
+		1A96B99A2356BCBA00371DE0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B9992356BCBA00371DE0 /* ColorExtension.swift */; };
+		1A99C25F2335CC7100AA5F03 /* SyncAndBackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99C25E2335CC7100AA5F03 /* SyncAndBackupView.swift */; };
 		1AB8308F2322A9B500F51972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB8308E2322A9B500F51972 /* AppDelegate.swift */; };
 		1AB830912322A9B500F51972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830902322A9B500F51972 /* SceneDelegate.swift */; };
 		1AB830932322A9B500F51972 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830922322A9B500F51972 /* ContentView.swift */; };
@@ -15,6 +37,21 @@
 		1AB8309B2322A9B600F51972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB830992322A9B600F51972 /* LaunchScreen.storyboard */; };
 		1AB830A62322A9B600F51972 /* OrangeCostBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830A52322A9B600F51972 /* OrangeCostBookTests.swift */; };
 		1AB830B12322A9B700F51972 /* OrangeCostBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830B02322A9B700F51972 /* OrangeCostBookUITests.swift */; };
+		1AB830BF2322AA1500F51972 /* CostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830BE2322AA1500F51972 /* CostItem.swift */; };
+		1AB830C12322BAFB00F51972 /* NewCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830C02322BAFB00F51972 /* NewCostView.swift */; };
+		1AC3712423B7634C008D28AE /* DefaultItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3712323B7634C008D28AE /* DefaultItems.swift */; };
+		1AD91AC6232CFC5900810AFF /* AboutContactDeveloperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */; };
+		1AD91AC8232D088200810AFF /* AboutDonateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC7232D088200810AFF /* AboutDonateButton.swift */; };
+		1AD91ACA232D357900810AFF /* AboutDonateDeveloperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */; };
+		1AD91ACC232D371C00810AFF /* QUNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91ACB232D371C00810AFF /* QUNavigationBar.swift */; };
+		1AD91ACF232D3BC800810AFF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91ACE232D3BC800810AFF /* SettingsView.swift */; };
+		1AD91AD1232D3BFF00810AFF /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AD0232D3BFF00810AFF /* SettingsItemView.swift */; };
+		1AD91AD6232D525D00810AFF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD91AD5232D525D00810AFF /* StoreKit.framework */; };
+		1AD91ADD232DE6BF00810AFF /* SpecialThanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91ADC232DE6BF00810AFF /* SpecialThanksView.swift */; };
+		1AE1AA9D2357164A0039E15E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AA9C2357164A0039E15E /* BlurView.swift */; };
+		1AE1AAA02357304E0039E15E /* QUNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AA9F2357304E0039E15E /* QUNavigationButton.swift */; };
+		1AF5A90323A502AA00E6D1A6 /* DatabaseInitializationScript.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5A90223A502AA00E6D1A6 /* DatabaseInitializationScript.sql */; };
+		1AF5A90523A503AC00E6D1A6 /* IconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5A90423A503AC00E6D1A6 /* IconType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +72,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A126F6423530C1B008C7CF1 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		1A126F6723530DBB008C7CF1 /* TimeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeExtension.swift; sourceTree = "<group>"; };
+		1A126F6923530DEB008C7CF1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		1A126F6C2353214C008C7CF1 /* InternalTypes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InternalTypes.json; sourceTree = "<group>"; };
+		1A126F712353252C008C7CF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A126F7323532530008C7CF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1A356B87232CDFB9006C092A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		1A3A00E02372BD5300A93E48 /* SelectCostTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCostTypeViewController.swift; sourceTree = "<group>"; };
+		1A40490C234711D8007857F3 /* OrangeCostBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrangeCostBook.entitlements; sourceTree = "<group>"; };
+		1A4A7ACB232CFB9C008FC0C5 /* AboutAppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppCard.swift; sourceTree = "<group>"; };
+		1A8729F72369212900152430 /* ClassicViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClassicViews.storyboard; sourceTree = "<group>"; };
+		1A872A0C236923D800152430 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1A872A112369268A00152430 /* CostBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostBook.swift; sourceTree = "<group>"; };
+		1A872A1323694D7E00152430 /* NewCostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCostViewController.swift; sourceTree = "<group>"; };
+		1A872A1523694F4000152430 /* SwiftUIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExtension.swift; sourceTree = "<group>"; };
+		1A9203A22352E8ED0031A823 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1A9203A42352E8F40031A823 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A96B99123535A9600371DE0 /* LockProtectSettingsQuickUnlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockProtectSettingsQuickUnlockView.swift; sourceTree = "<group>"; };
+		1A96B99323535A9D00371DE0 /* LockProtectSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockProtectSettingView.swift; sourceTree = "<group>"; };
+		1A96B9952356BB6300371DE0 /* CostTypeSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostTypeSelectView.swift; sourceTree = "<group>"; };
+		1A96B9972356BBEB00371DE0 /* CostIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostIcon.swift; sourceTree = "<group>"; };
+		1A96B9992356BCBA00371DE0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		1A99C25E2335CC7100AA5F03 /* SyncAndBackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncAndBackupView.swift; sourceTree = "<group>"; };
+		1AACEF7E2352E7E3008950C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1AB8308B2322A9B500F51972 /* OrangeCostBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeCostBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB8308E2322A9B500F51972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB830902322A9B500F51972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +110,21 @@
 		1AB830AC2322A9B700F51972 /* OrangeCostBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeCostBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB830B02322A9B700F51972 /* OrangeCostBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeCostBookUITests.swift; sourceTree = "<group>"; };
 		1AB830B22322A9B700F51972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB830BE2322AA1500F51972 /* CostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostItem.swift; sourceTree = "<group>"; };
+		1AB830C02322BAFB00F51972 /* NewCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCostView.swift; sourceTree = "<group>"; };
+		1AC3712323B7634C008D28AE /* DefaultItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultItems.swift; sourceTree = "<group>"; };
+		1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutContactDeveloperCard.swift; sourceTree = "<group>"; };
+		1AD91AC7232D088200810AFF /* AboutDonateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDonateButton.swift; sourceTree = "<group>"; };
+		1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDonateDeveloperCard.swift; sourceTree = "<group>"; };
+		1AD91ACB232D371C00810AFF /* QUNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUNavigationBar.swift; sourceTree = "<group>"; };
+		1AD91ACE232D3BC800810AFF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1AD91AD0232D3BFF00810AFF /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
+		1AD91AD5232D525D00810AFF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1AD91ADC232DE6BF00810AFF /* SpecialThanksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialThanksView.swift; sourceTree = "<group>"; };
+		1AE1AA9C2357164A0039E15E /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		1AE1AA9F2357304E0039E15E /* QUNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUNavigationButton.swift; sourceTree = "<group>"; };
+		1AF5A90223A502AA00E6D1A6 /* DatabaseInitializationScript.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = DatabaseInitializationScript.sql; sourceTree = "<group>"; };
+		1AF5A90423A503AC00E6D1A6 /* IconType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3A00E42372C77700A93E48 /* SnapKit in Frameworks */,
+				1A872A10236925D600152430 /* SQLite in Frameworks */,
+				1AD91AD6232D525D00810AFF /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +155,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A126F6323530C0C008C7CF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A126F6C2353214C008C7CF1 /* InternalTypes.json */,
+				1AF5A90223A502AA00E6D1A6 /* DatabaseInitializationScript.sql */,
+				1A126F6423530C1B008C7CF1 /* Types.swift */,
+				1AF5A90423A503AC00E6D1A6 /* IconType.swift */,
+				1A872A0C236923D800152430 /* Config.swift */,
+				1A872A112369268A00152430 /* CostBook.swift */,
+				1AC3712323B7634C008D28AE /* DefaultItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A126F6623530DAC008C7CF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A126F6723530DBB008C7CF1 /* TimeExtension.swift */,
+				1A126F6923530DEB008C7CF1 /* StringExtension.swift */,
+				1A96B9992356BCBA00371DE0 /* ColorExtension.swift */,
+				1A872A1523694F4000152430 /* SwiftUIExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1A126F75235356E5008C7CF1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1A96B99023535A8700371DE0 /* LockProtect */,
+				1AD91ACD232D3BAC00810AFF /* About */,
+				1AD91ACE232D3BC800810AFF /* SettingsView.swift */,
+				1AD91AD0232D3BFF00810AFF /* SettingsItemView.swift */,
+				1A99C25E2335CC7100AA5F03 /* SyncAndBackupView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1A126F762353581A008C7CF1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1A126F722353252C008C7CF1 /* Localizable.strings */,
+				1A9203A32352E8ED0031A823 /* InfoPlist.strings */,
+				1AB8308E2322A9B500F51972 /* AppDelegate.swift */,
+				1AB830902322A9B500F51972 /* SceneDelegate.swift */,
+				1AB830992322A9B600F51972 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1A126F772353582A008C7CF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A126F75235356E5008C7CF1 /* Settings */,
+				1A3A00DF2372665400A93E48 /* UIView */,
+				1AE1AA9C2357164A0039E15E /* BlurView.swift */,
+				1AB830922322A9B500F51972 /* ContentView.swift */,
+				1AB830BE2322AA1500F51972 /* CostItem.swift */,
+				1AB830C02322BAFB00F51972 /* NewCostView.swift */,
+				1AD91ACB232D371C00810AFF /* QUNavigationBar.swift */,
+				1AE1AA9F2357304E0039E15E /* QUNavigationButton.swift */,
+				1A96B9952356BB6300371DE0 /* CostTypeSelectView.swift */,
+				1A96B9972356BBEB00371DE0 /* CostIcon.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A3A00DF2372665400A93E48 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1A8729F72369212900152430 /* ClassicViews.storyboard */,
+				1A872A1323694D7E00152430 /* NewCostViewController.swift */,
+				1A3A00E02372BD5300A93E48 /* SelectCostTypeViewController.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		1A96B99023535A8700371DE0 /* LockProtect */ = {
+			isa = PBXGroup;
+			children = (
+				1A96B99323535A9D00371DE0 /* LockProtectSettingView.swift */,
+				1A96B99123535A9600371DE0 /* LockProtectSettingsQuickUnlockView.swift */,
+			);
+			path = LockProtect;
+			sourceTree = "<group>";
+		};
 		1AB830822322A9B500F51972 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +247,7 @@
 				1AB830A42322A9B600F51972 /* OrangeCostBookTests */,
 				1AB830AF2322A9B700F51972 /* OrangeCostBookUITests */,
 				1AB8308C2322A9B500F51972 /* Products */,
+				1AD91AD4232D525D00810AFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +264,13 @@
 		1AB8308D2322A9B500F51972 /* OrangeCostBook */ = {
 			isa = PBXGroup;
 			children = (
-				1AB8308E2322A9B500F51972 /* AppDelegate.swift */,
-				1AB830902322A9B500F51972 /* SceneDelegate.swift */,
-				1AB830922322A9B500F51972 /* ContentView.swift */,
 				1AB830942322A9B600F51972 /* Assets.xcassets */,
-				1AB830992322A9B600F51972 /* LaunchScreen.storyboard */,
+				1A40490C234711D8007857F3 /* OrangeCostBook.entitlements */,
 				1AB8309C2322A9B600F51972 /* Info.plist */,
+				1A126F6623530DAC008C7CF1 /* Extension */,
+				1A126F6323530C0C008C7CF1 /* Model */,
+				1A126F762353581A008C7CF1 /* Base */,
+				1A126F772353582A008C7CF1 /* Views */,
 				1AB830962322A9B600F51972 /* Preview Content */,
 			);
 			path = OrangeCostBook;
@@ -136,6 +302,35 @@
 			path = OrangeCostBookUITests;
 			sourceTree = "<group>";
 		};
+		1AD91ACD232D3BAC00810AFF /* About */ = {
+			isa = PBXGroup;
+			children = (
+				1AD91ADB232DE65900810AFF /* SpecialThanksAndOpenSourceLicence */,
+				1A356B87232CDFB9006C092A /* AboutView.swift */,
+				1A4A7ACB232CFB9C008FC0C5 /* AboutAppCard.swift */,
+				1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */,
+				1AD91AC7232D088200810AFF /* AboutDonateButton.swift */,
+				1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		1AD91AD4232D525D00810AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD91AD5232D525D00810AFF /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AD91ADB232DE65900810AFF /* SpecialThanksAndOpenSourceLicence */ = {
+			isa = PBXGroup;
+			children = (
+				1AD91ADC232DE6BF00810AFF /* SpecialThanksView.swift */,
+			);
+			path = SpecialThanksAndOpenSourceLicence;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +347,10 @@
 			dependencies = (
 			);
 			name = OrangeCostBook;
+			packageProductDependencies = (
+				1A872A0F236925D600152430 /* SQLite */,
+				1A3A00E32372C77700A93E48 /* SnapKit */,
+			);
 			productName = OrangeCostBook;
 			productReference = 1AB8308B2322A9B500F51972 /* OrangeCostBook.app */;
 			productType = "com.apple.product-type.application";
@@ -222,8 +421,13 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1AB830822322A9B500F51972;
+			packageReferences = (
+				1A872A0E236925D600152430 /* XCRemoteSwiftPackageReference "SQLite" */,
+				1A3A00E22372C77700A93E48 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1AB8308C2322A9B500F51972 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,8 +444,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF5A90323A502AA00E6D1A6 /* DatabaseInitializationScript.sql in Resources */,
 				1AB8309B2322A9B600F51972 /* LaunchScreen.storyboard in Resources */,
+				1A126F702353252C008C7CF1 /* Localizable.strings in Resources */,
+				1A8729F82369212900152430 /* ClassicViews.storyboard in Resources */,
+				1A9203A12352E8ED0031A823 /* InfoPlist.strings in Resources */,
 				1AB830982322A9B600F51972 /* Preview Assets.xcassets in Resources */,
+				1A126F6D2353214C008C7CF1 /* InternalTypes.json in Resources */,
 				1AB830952322A9B600F51972 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +476,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A872A1423694D7E00152430 /* NewCostViewController.swift in Sources */,
+				1A3A00E12372BD5300A93E48 /* SelectCostTypeViewController.swift in Sources */,
+				1AB830C12322BAFB00F51972 /* NewCostView.swift in Sources */,
+				1AE1AAA02357304E0039E15E /* QUNavigationButton.swift in Sources */,
+				1AD91AC6232CFC5900810AFF /* AboutContactDeveloperCard.swift in Sources */,
+				1A96B99A2356BCBA00371DE0 /* ColorExtension.swift in Sources */,
 				1AB8308F2322A9B500F51972 /* AppDelegate.swift in Sources */,
 				1AB830912322A9B500F51972 /* SceneDelegate.swift in Sources */,
+				1AF5A90523A503AC00E6D1A6 /* IconType.swift in Sources */,
+				1AD91AC8232D088200810AFF /* AboutDonateButton.swift in Sources */,
+				1A96B99223535A9600371DE0 /* LockProtectSettingsQuickUnlockView.swift in Sources */,
+				1A96B9962356BB6300371DE0 /* CostTypeSelectView.swift in Sources */,
+				1A96B9982356BBEB00371DE0 /* CostIcon.swift in Sources */,
+				1A99C25F2335CC7100AA5F03 /* SyncAndBackupView.swift in Sources */,
+				1A4A7ACC232CFB9C008FC0C5 /* AboutAppCard.swift in Sources */,
+				1AD91ADD232DE6BF00810AFF /* SpecialThanksView.swift in Sources */,
+				1AD91AD1232D3BFF00810AFF /* SettingsItemView.swift in Sources */,
+				1A126F6823530DBB008C7CF1 /* TimeExtension.swift in Sources */,
 				1AB830932322A9B500F51972 /* ContentView.swift in Sources */,
+				1A126F6A23530DEB008C7CF1 /* StringExtension.swift in Sources */,
+				1AC3712423B7634C008D28AE /* DefaultItems.swift in Sources */,
+				1A126F6523530C1B008C7CF1 /* Types.swift in Sources */,
+				1AE1AA9D2357164A0039E15E /* BlurView.swift in Sources */,
+				1A872A0D236923D800152430 /* Config.swift in Sources */,
+				1AD91ACC232D371C00810AFF /* QUNavigationBar.swift in Sources */,
+				1AD91ACA232D357900810AFF /* AboutDonateDeveloperCard.swift in Sources */,
+				1AD91ACF232D3BC800810AFF /* SettingsView.swift in Sources */,
+				1A356B88232CDFB9006C092A /* AboutView.swift in Sources */,
+				1A96B99423535A9E00371DE0 /* LockProtectSettingView.swift in Sources */,
+				1A872A1623694F4000152430 /* SwiftUIExtension.swift in Sources */,
+				1AB830BF2322AA1500F51972 /* CostItem.swift in Sources */,
+				1A872A122369268A00152430 /* CostBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,10 +543,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1A126F722353252C008C7CF1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A126F712353252C008C7CF1 /* en */,
+				1A126F7323532530008C7CF1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1A9203A32352E8ED0031A823 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9203A22352E8ED0031A823 /* zh-Hans */,
+				1A9203A42352E8F40031A823 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		1AB830992322A9B600F51972 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1AB8309A2322A9B600F51972 /* Base */,
+				1AACEF7E2352E7E3008950C8 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -434,7 +693,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OrangeCostBook/OrangeCostBook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OrangeCostBook/Preview Content\"";
 				DEVELOPMENT_TEAM = 6P3X4YM85T;
 				ENABLE_PREVIEWS = YES;
@@ -445,6 +706,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.qpomelo.OrangeCostBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +716,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OrangeCostBook/OrangeCostBook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OrangeCostBook/Preview Content\"";
 				DEVELOPMENT_TEAM = 6P3X4YM85T;
 				ENABLE_PREVIEWS = YES;
@@ -465,6 +729,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.qpomelo.OrangeCostBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -594,6 +859,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A3A00E22372C77700A93E48 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		1A872A0E236925D600152430 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A3A00E32372C77700A93E48 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A3A00E22372C77700A93E48 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1A872A0F236925D600152430 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A872A0E236925D600152430 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AB830832322A9B500F51972 /* Project object */;
 }

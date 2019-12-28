@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  OrangeCostBook
+
+  Created by QPomelo on 2019/10/13.
+  Copyright © 2019 QPomelo. All rights reserved.
+*/
+
+CostBook_Default = "默认";
+
+// 内置账单类型
+CostType_GroupTravel = "出行";
+CostType_Bus = "公交";
+CostType_Metro = "地铁";
+CostType_Taxi = "出租车";
+CostType_Airplane = "飞机";
+CostType_Train = "火车/高铁";
+CostType_Boat = "轮船";
+
+CostType_GroupFinancial = "资金";
+CostType_Borrow = "借钱";
+CostType_Return = "还钱";
+CostType_Gift = "礼物";
+CostType_RedPacket = "红包";
+
+CostType_GroupDaily = "日常";
+CostType_Clothes = "衣服";
+CostType_Daily = "日用";
+CostType_Cosmetic = "化妆品";
+CostType_Shopping = "购物";
+CostType_Medical = "医疗";
+
+CostType_GroupEntertainment = "文娱";
+CostType_Game = "电竞";
+CostType_Book = "图书";
+CostType_Ticket = "购票";
+CostType_Phone = "通讯";
+CostType_AppStore = "App Store";
+CostType_GooglePlayStore = "Play Store";
+
+CostType_GroupFoods = "食物";
+CostType_Noodles = "午餐";
+CostType_Soup = "晚餐";
+CostType_Bread = "早餐";
+CostType_Fruit = "水果";
+CostType_Snack = "零食";
+
+CostType_GroupCustom = "自定义";
+CostType_Other = "其他";
+
+Currency_CNY = "人民币";
+Currency_HKD = "港币";
+Currency_USD = "美元";
+Currency_KRW = "韩元";
+Currency_JPY = "日元";
+Currency_SGD = "新加坡元";
+Currency_EUR = "欧元";
+Currency_GBP = "英镑";
+Currency_CAD = "加拿大元";

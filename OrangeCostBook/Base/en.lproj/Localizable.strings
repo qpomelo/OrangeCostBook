@@ -1,0 +1,60 @@
+/* 
+  Localizable.strings
+  OrangeCostBook
+
+  Created by QPomelo on 2019/10/13.
+  Copyright © 2019 QPomelo. All rights reserved.
+*/
+
+CostBook_Default = "Default";
+
+// 内置账单类型
+CostType_GroupTravel = "Travel";
+CostType_Bus = "Bus";
+CostType_Metro = "Metro";
+CostType_Taxi = "Taxi";
+CostType_Airplane = "Airplane";
+CostType_Train = "Train";
+CostType_Boat = "Ship";
+
+CostType_GroupFinancial = "Financial";
+CostType_Borrow = "Borrow";
+CostType_Return = "Return";
+CostType_Gift = "Gift";
+CostType_RedPacket = "Red Packet";
+
+CostType_GroupDaily = "Daily";
+CostType_Clothes = "Clothes";
+CostType_Daily = "Daily";
+CostType_Cosmetic = "Cosmetic";
+CostType_Shopping = "Shopping";
+CostType_Medical = "Medical";
+
+CostType_GroupEntertainment = "Entertainment";
+CostType_Game = "Game";
+CostType_Book = "Book";
+CostType_Ticket = "Ticket";
+CostType_Phone = "Phoe";
+CostType_AppStore = "App Store";
+CostType_GooglePlayStore = "Play Store";
+
+CostType_GroupFoods = "Foods";
+CostType_Noodles = "Lunch";
+CostType_Soup = "Dinner";
+CostType_Bread = "Breakfast";
+CostType_Fruit = "Fruit";
+CostType_Snack = "Snack";
+
+CostType_GroupCustom = "Custom";
+CostType_Other = "Other";
+
+
+Currency_CNY = "China Yuan";
+Currency_HKD = "HongKong Dollar";
+Currency_USD = "US Dollar";
+Currency_KRW = "Korea Dollar";
+Currency_JPY = "Japan Yuan";
+Currency_SGD = "S Dollar";
+Currency_EUR = "E Dollar";
+Currency_GBP = "English Dollar";
+Currency_CAD = "Canada Dollar";

@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  OrangeCostBook
+
+  Created by QPomelo on 2019/10/13.
+  Copyright © 2019 QPomelo. All rights reserved.
+*/
+
+CFBundleDisplayName = "Orange Book"; // App 名称
+
+// 桌面快捷菜单
+ShortcutItemNewCost = "New Cost";
