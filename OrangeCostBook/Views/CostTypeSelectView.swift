@@ -12,7 +12,7 @@ var CostTypeSelectViewHostingVC: UIHostingController<CostTypeSelectView>?
 
 struct CostTypeSelectView: View {
     
-    @State var groups: [TypeGroup] = [TypeGroup]()
+    @State var groups: [CostTypeP] = [CostTypeP]()
     
     var body: some View {
         
@@ -62,40 +62,6 @@ struct CostTypeSelectView: View {
                         .padding(.trailing, 30)
                 }.frame(height: 52)
                 
-                /*
-                 ZStack {
-                 
-                 HStack(alignment: .center) {
-                 
-                 Button(action: {
-                 CostTypeSelectViewHostingVC?.dismiss(animated: true)
-                 }) {
-                 ZStack {
-                 Circle()
-                 .foregroundColor(Color("NavigationBar DefaultButton BackgroundColor"))
-                 .frame(width: 28, height: 28)
-                 Image(systemName: "arrow.left")
-                 .imageScale(.small)
-                 .foregroundColor(Color("NavigationBar DefaultButton IconColor"))
-                 }
-                 }
-                 
-                 Text("类别")
-                 .padding(.leading, (16)
-                 .font(Font.custom("PingFangSC-Medium", size: 16))
-                 
-                 
-                 
-                 }
-                 .padding(.leading, 30)
-                 .padding(.trailing, 30)
-                 
-                 
-                 
-                 }
-                 .frame(height: 52)
-                 */
-                
                 ScrollView {
                     VStack {
                         ForEach(groups, id: \.id) { group in
@@ -109,7 +75,7 @@ struct CostTypeSelectView: View {
                                 .padding(.bottom, 8)
                                 
                                 ScrollView(.horizontal, content: {
-                                    CostTypeSelectViewTypes(costTypes: group.items)
+                                    Text("test")
                                 })
                                     .padding(.bottom, 8)
                                 
@@ -123,25 +89,9 @@ struct CostTypeSelectView: View {
     }
     
     private func viewDidAppear() {
-        self.groups = CostType.shared.groups
+        self.groups = CostType.shared
     }
 }
-
-struct CostTypeSelectViewTypes: View {
-    
-    var costTypes: [InternalCostType] = [InternalCostType]()
-    
-    var body: some View {
-        HStack {
-            ForEach(costTypes, id: \.id) { type in
-                CostIconWithTitle(icon: type.icon, color: type.color, title: type.string.localized)
-                    .padding(.trailing, 6)
-            }
-        }
-    }
-    
-}
-
 
 struct CostTypeSelectView_Previews: PreviewProvider {
     static var previews: some View {

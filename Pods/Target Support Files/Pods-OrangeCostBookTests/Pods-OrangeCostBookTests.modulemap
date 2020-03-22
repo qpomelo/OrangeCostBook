@@ -1,0 +1,6 @@
+framework module Pods_OrangeCostBookTests {
+  umbrella header "Pods-OrangeCostBookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_OrangeCostBook {
+  umbrella header "Pods-OrangeCostBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,11 @@
 
 import Foundation
 
+class CostType {
+    /// 已经加载到内存的类别
+    public static var shared: [CostTypeUG] = [CostTypeUG]()
+}
+
 /// 账单类别(接口定义)
 protocol CostTypeP: Codable {
     /// 类别 ID
@@ -24,10 +29,32 @@ protocol CostTypeP: Codable {
     var string: String { get set }
 }
 
+/// 内置在 App 内的类型
+class CostTypeI: CostTypeP {
+    var id: UInt
+    
+    var color: String
+    
+    var icon: String
+    
+    var internalType: Bool
+    
+    var group: String
+    
+    var string: String
+    
+    init(_ id: UInt, _ color: String, _ icon: String, _ group: String, _ string: String) {
+        self.internalType = true
+        self.id = id
+        self.color = color
+        self.icon = icon
+        self.group = group
+        self.string = string
+    }
+}
+
 /// 用户创建的类型 (UG: User Generated)
 class CostTypeUG: CostTypeP {
-    /// 已经加载到内存的类别
-    public static var shared: [CostTypeUG] = [CostTypeUG]()
     /// 类型 id (UG类型从10000开始)
     var id: UInt
     /// 十六位进制的颜色代码

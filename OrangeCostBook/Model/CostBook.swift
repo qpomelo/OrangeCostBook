@@ -8,21 +8,49 @@
 
 import Foundation
 
+/// 账本模型
 class CostBook {
     
-    var name: String!
-    var path: String!
+    /// 账本 ID
+    var bookId: UInt
+    /// 账本名称
+    var title: String
+    /// 账本封面颜色 (十六进制RGB)
+    var colorHexStr: String
+    /// 账本基准货币 (如 CNY, USD, HKD, JPY)
+    var defaultCurrency: String
     
-    static var main: CostBook = CostBook("main")
-    
-    init(_ name: String) {
-        self.name = name
-        self.path = "\(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!)/\(name).db"
+    /// 初始化函数
+    init(bookId: UInt, title: String, colorHexStr: String, defaultCurrency: String) {
+        self.bookId = bookId
+        self.title = title
+        self.colorHexStr = colorHexStr
+        self.defaultCurrency = defaultCurrency
     }
     
-    init(_ name: String, path: String) {
-        self.name = name
-        self.path = path
+    //MARK: 增加
+    func insert() -> Bool {
+        return false
+    }
+    
+    //MARK: 删除
+    func delete() -> Bool {
+        return false
+    }
+    
+    //MARK: 更改
+    func update() -> Bool {
+        return false
+    }
+    
+    //MARK: 查: 根据账本ID
+    static func get(bookId: UInt) -> CostBook? {
+        return nil
+    }
+    
+    //MARK: 查: 获取全部
+    static func gets() -> [CostBook] {
+        return [CostBook]()
     }
     
 }

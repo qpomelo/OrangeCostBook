@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SnapKit
 
 var HomeView: ContentView!
 
@@ -24,6 +25,36 @@ struct ContentView: View {
                 Color("Default View Background Color")
                     .edgesIgnoringSafeArea(.all)
                 
+                // 测试版水印
+                VStack {
+                    Spacer()
+                    ZStack{
+                        BlurView(style: .regular)
+                        
+                        Rectangle()
+                            .foregroundColor(Color("Navigation Bar Color Background"))
+                        
+                        HStack {
+                            Text("橙子账本早期预览版 暂无实际功能 不代表最终品质")
+                                .font(Font.custom("PingFangSC-Medium", size: 12))
+                                .padding(.leading, 24)
+                                .padding(.bottom, 28)
+                                .opacity(0.2)
+                            Spacer()
+                        }
+                    }
+                    .frame(height: 58)
+                    .padding(.bottom, -34)
+                        
+                }
+                
+                // 广告
+                VStack {
+                    Spacer()
+                    
+                    Image("Test Ad")
+                        .padding(.bottom, 114)
+                }
                 
                 ScrollView {
                     
@@ -66,7 +97,7 @@ struct ContentView: View {
                             CostItem(icon: "typeDaily", color: "#75B1CD", cost: 12, moneySymbol: "¥", spend: true, description: "牙刷")
                                 .padding(.all, 0)
                             
-                            Image("Test Ad")
+                            
                             
                         }.padding(.top, 16)
                         
@@ -117,7 +148,7 @@ struct ContentView: View {
                         }
                         
                         // 账本按钮
-                        NavigationLink(destination: SettingsView())  {
+                        NavigationLink(destination: Text("placeholder"))  {
                             ZStack {
                                 Circle()
                                     .foregroundColor(Color("NavigationBar DefaultButton BackgroundColor"))
@@ -129,7 +160,7 @@ struct ContentView: View {
                         }.padding(.leading, 8)
                         
                         // 日期按钮
-                        NavigationLink(destination: SettingsView())  {
+                        NavigationLink(destination: Text("placeholder"))  {
                             ZStack {
                                 Circle()
                                     .foregroundColor(Color("NavigationBar DefaultButton BackgroundColor"))
@@ -168,6 +199,33 @@ struct ContentView: View {
     private func appear() {
         HomeView = self
         self.showNewCostViewMask = false
+        
+        
+        var earlyAlphaEffectView: UIVisualEffectView!
+        let effect = UIBlurEffect(style: .regular)
+        earlyAlphaEffectView = UIVisualEffectView(effect: effect)
+        earlyAlphaEffectView.backgroundColor = UIColor(named: "Navigation Bar Color Background")!
+        let window = UIApplication.shared.windows[0]
+        let viewController = window.rootViewController
+        viewController!.view.addSubview(earlyAlphaEffectView)
+        earlyAlphaEffectView.snp.makeConstraints { (make) in
+            make.bottom.equalToSuperview()
+            make.height.equalTo(34)
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+        }
+        let earlyBetaWatermark = UILabel()
+        earlyBetaWatermark.text = "橙子账本早期预览版 暂无实际功能 不代表最终品质"
+        earlyBetaWatermark.font = UIFont(name: "PingFangSC-Medium", size: 12)
+        earlyBetaWatermark.numberOfLines = 0
+        // earlyBetaWatermark.textAlignment = .center
+        earlyBetaWatermark.alpha = 0.2
+        viewController!.view.addSubview(earlyBetaWatermark)
+        earlyBetaWatermark.snp.makeConstraints { (make) in
+            make.top.equalTo(earlyAlphaEffectView).offset(8)
+            make.leading.equalTo(earlyAlphaEffectView).offset(24)
+        }
+        
         
     }
     

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,9 @@
 		1A126F702353252C008C7CF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A126F722353252C008C7CF1 /* Localizable.strings */; };
 		1A356B88232CDFB9006C092A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A356B87232CDFB9006C092A /* AboutView.swift */; };
 		1A3A00E12372BD5300A93E48 /* SelectCostTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A00E02372BD5300A93E48 /* SelectCostTypeViewController.swift */; };
-		1A3A00E42372C77700A93E48 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3A00E32372C77700A93E48 /* SnapKit */; };
 		1A4A7ACC232CFB9C008FC0C5 /* AboutAppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A7ACB232CFB9C008FC0C5 /* AboutAppCard.swift */; };
 		1A8729F82369212900152430 /* ClassicViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8729F72369212900152430 /* ClassicViews.storyboard */; };
 		1A872A0D236923D800152430 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A0C236923D800152430 /* Config.swift */; };
-		1A872A10236925D600152430 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 1A872A0F236925D600152430 /* SQLite */; };
 		1A872A122369268A00152430 /* CostBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A112369268A00152430 /* CostBook.swift */; };
 		1A872A1423694D7E00152430 /* NewCostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A1323694D7E00152430 /* NewCostViewController.swift */; };
 		1A872A1623694F4000152430 /* SwiftUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A872A1523694F4000152430 /* SwiftUIExtension.swift */; };
@@ -41,6 +39,7 @@
 		1AB830C12322BAFB00F51972 /* NewCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB830C02322BAFB00F51972 /* NewCostView.swift */; };
 		1AC3712423B7634C008D28AE /* DefaultItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3712323B7634C008D28AE /* DefaultItems.swift */; };
 		1AC3712623B76AC6008D28AE /* To-do-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3712523B76AC6008D28AE /* To-do-list.swift */; };
+		1AC3712823B76C8B008D28AE /* Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3712723B76C8B008D28AE /* Cost.swift */; };
 		1AD91AC6232CFC5900810AFF /* AboutContactDeveloperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */; };
 		1AD91AC8232D088200810AFF /* AboutDonateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC7232D088200810AFF /* AboutDonateButton.swift */; };
 		1AD91ACA232D357900810AFF /* AboutDonateDeveloperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */; };
@@ -53,6 +52,9 @@
 		1AE1AAA02357304E0039E15E /* QUNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1AA9F2357304E0039E15E /* QUNavigationButton.swift */; };
 		1AF5A90323A502AA00E6D1A6 /* DatabaseInitializationScript.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5A90223A502AA00E6D1A6 /* DatabaseInitializationScript.sql */; };
 		1AF5A90523A503AC00E6D1A6 /* IconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5A90423A503AC00E6D1A6 /* IconType.swift */; };
+		52449491B5ED34D96F772D77 /* Pods_OrangeCostBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA55C6DD787D3D8AB7BCF43 /* Pods_OrangeCostBook.framework */; };
+		72A1FD75ED4BBDD62D9F20D8 /* Pods_OrangeCostBook_OrangeCostBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7251399C491B982D829C03E1 /* Pods_OrangeCostBook_OrangeCostBookUITests.framework */; };
+		825F9D5EA157F6DC4692EEBE /* Pods_OrangeCostBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA68564598840CC8D217C3 /* Pods_OrangeCostBookTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12D0A6251A7A6AF666C0DEE6 /* Pods-OrangeCostBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeCostBook.release.xcconfig"; path = "Target Support Files/Pods-OrangeCostBook/Pods-OrangeCostBook.release.xcconfig"; sourceTree = "<group>"; };
 		1A126F6423530C1B008C7CF1 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		1A126F6723530DBB008C7CF1 /* TimeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeExtension.swift; sourceTree = "<group>"; };
 		1A126F6923530DEB008C7CF1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 		1AB830C02322BAFB00F51972 /* NewCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCostView.swift; sourceTree = "<group>"; };
 		1AC3712323B7634C008D28AE /* DefaultItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultItems.swift; sourceTree = "<group>"; };
 		1AC3712523B76AC6008D28AE /* To-do-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To-do-list.swift"; sourceTree = "<group>"; };
+		1AC3712723B76C8B008D28AE /* Cost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost.swift; sourceTree = "<group>"; };
 		1AD91AC5232CFC5900810AFF /* AboutContactDeveloperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutContactDeveloperCard.swift; sourceTree = "<group>"; };
 		1AD91AC7232D088200810AFF /* AboutDonateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDonateButton.swift; sourceTree = "<group>"; };
 		1AD91AC9232D357900810AFF /* AboutDonateDeveloperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDonateDeveloperCard.swift; sourceTree = "<group>"; };
@@ -127,6 +131,14 @@
 		1AE1AA9F2357304E0039E15E /* QUNavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUNavigationButton.swift; sourceTree = "<group>"; };
 		1AF5A90223A502AA00E6D1A6 /* DatabaseInitializationScript.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = DatabaseInitializationScript.sql; sourceTree = "<group>"; };
 		1AF5A90423A503AC00E6D1A6 /* IconType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconType.swift; sourceTree = "<group>"; };
+		216B48167A402B037389A581 /* Pods-OrangeCostBook-OrangeCostBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeCostBook-OrangeCostBookUITests.release.xcconfig"; path = "Target Support Files/Pods-OrangeCostBook-OrangeCostBookUITests/Pods-OrangeCostBook-OrangeCostBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A21341F877AEBF9AC7456AB /* Pods-OrangeCostBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeCostBook.debug.xcconfig"; path = "Target Support Files/Pods-OrangeCostBook/Pods-OrangeCostBook.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE6C34391BD5E77F5DB37E4 /* Pods-OrangeCostBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeCostBookTests.release.xcconfig"; path = "Target Support Files/Pods-OrangeCostBookTests/Pods-OrangeCostBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DA55C6DD787D3D8AB7BCF43 /* Pods_OrangeCostBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeCostBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7251399C491B982D829C03E1 /* Pods_OrangeCostBook_OrangeCostBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeCostBook_OrangeCostBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F66B2A6079F844A8B967B9 /* Pods-OrangeCostBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeCostBookTests.debug.xcconfig"; path = "Target Support Files/Pods-OrangeCostBookTests/Pods-OrangeCostBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBEA68564598840CC8D217C3 /* Pods_OrangeCostBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeCostBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA63338869C1B18BB2914F6B /* Pods-OrangeCostBook-OrangeCostBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeCostBook-OrangeCostBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-OrangeCostBook-OrangeCostBookUITests/Pods-OrangeCostBook-OrangeCostBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +146,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3A00E42372C77700A93E48 /* SnapKit in Frameworks */,
-				1A872A10236925D600152430 /* SQLite in Frameworks */,
 				1AD91AD6232D525D00810AFF /* StoreKit.framework in Frameworks */,
+				52449491B5ED34D96F772D77 /* Pods_OrangeCostBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825F9D5EA157F6DC4692EEBE /* Pods_OrangeCostBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A1FD75ED4BBDD62D9F20D8 /* Pods_OrangeCostBook_OrangeCostBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 				1A872A0C236923D800152430 /* Config.swift */,
 				1A872A112369268A00152430 /* CostBook.swift */,
 				1AC3712323B7634C008D28AE /* DefaultItems.swift */,
+				1AC3712723B76C8B008D28AE /* Cost.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,6 +265,7 @@
 				1AB830AF2322A9B700F51972 /* OrangeCostBookUITests */,
 				1AB8308C2322A9B500F51972 /* Products */,
 				1AD91AD4232D525D00810AFF /* Frameworks */,
+				3A41C1CE93D3D7F2688778E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -322,6 +337,9 @@
 			isa = PBXGroup;
 			children = (
 				1AD91AD5232D525D00810AFF /* StoreKit.framework */,
+				5DA55C6DD787D3D8AB7BCF43 /* Pods_OrangeCostBook.framework */,
+				7251399C491B982D829C03E1 /* Pods_OrangeCostBook_OrangeCostBookUITests.framework */,
+				DBEA68564598840CC8D217C3 /* Pods_OrangeCostBookTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -334,6 +352,19 @@
 			path = SpecialThanksAndOpenSourceLicence;
 			sourceTree = "<group>";
 		};
+		3A41C1CE93D3D7F2688778E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A21341F877AEBF9AC7456AB /* Pods-OrangeCostBook.debug.xcconfig */,
+				12D0A6251A7A6AF666C0DEE6 /* Pods-OrangeCostBook.release.xcconfig */,
+				FA63338869C1B18BB2914F6B /* Pods-OrangeCostBook-OrangeCostBookUITests.debug.xcconfig */,
+				216B48167A402B037389A581 /* Pods-OrangeCostBook-OrangeCostBookUITests.release.xcconfig */,
+				93F66B2A6079F844A8B967B9 /* Pods-OrangeCostBookTests.debug.xcconfig */,
+				4FE6C34391BD5E77F5DB37E4 /* Pods-OrangeCostBookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,19 +372,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AB830B52322A9B700F51972 /* Build configuration list for PBXNativeTarget "OrangeCostBook" */;
 			buildPhases = (
+				C5DE14DAD615824B48FFB36B /* [CP] Check Pods Manifest.lock */,
 				1AB830872322A9B500F51972 /* Sources */,
 				1AB830882322A9B500F51972 /* Frameworks */,
 				1AB830892322A9B500F51972 /* Resources */,
+				D9384E45C423B534F3AC92E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = OrangeCostBook;
-			packageProductDependencies = (
-				1A872A0F236925D600152430 /* SQLite */,
-				1A3A00E32372C77700A93E48 /* SnapKit */,
-			);
 			productName = OrangeCostBook;
 			productReference = 1AB8308B2322A9B500F51972 /* OrangeCostBook.app */;
 			productType = "com.apple.product-type.application";
@@ -362,6 +391,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AB830B82322A9B700F51972 /* Build configuration list for PBXNativeTarget "OrangeCostBookTests" */;
 			buildPhases = (
+				331AB2E0AA95E859D417E5A5 /* [CP] Check Pods Manifest.lock */,
 				1AB8309D2322A9B600F51972 /* Sources */,
 				1AB8309E2322A9B600F51972 /* Frameworks */,
 				1AB8309F2322A9B600F51972 /* Resources */,
@@ -380,9 +410,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AB830BB2322A9B700F51972 /* Build configuration list for PBXNativeTarget "OrangeCostBookUITests" */;
 			buildPhases = (
+				873E2E6D7D45BA98BAFC8F43 /* [CP] Check Pods Manifest.lock */,
 				1AB830A82322A9B700F51972 /* Sources */,
 				1AB830A92322A9B700F51972 /* Frameworks */,
 				1AB830AA2322A9B700F51972 /* Resources */,
+				9F2859EF24844ADE5B68B242 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,10 +459,6 @@
 				"zh-Hans",
 			);
 			mainGroup = 1AB830822322A9B500F51972;
-			packageReferences = (
-				1A872A0E236925D600152430 /* XCRemoteSwiftPackageReference "SQLite" */,
-				1A3A00E22372C77700A93E48 /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			productRefGroup = 1AB8308C2322A9B500F51972 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -474,6 +502,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		331AB2E0AA95E859D417E5A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrangeCostBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873E2E6D7D45BA98BAFC8F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrangeCostBook-OrangeCostBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2859EF24844ADE5B68B242 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrangeCostBook-OrangeCostBookUITests/Pods-OrangeCostBook-OrangeCostBookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrangeCostBook-OrangeCostBookUITests/Pods-OrangeCostBook-OrangeCostBookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrangeCostBook-OrangeCostBookUITests/Pods-OrangeCostBook-OrangeCostBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DE14DAD615824B48FFB36B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrangeCostBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9384E45C423B534F3AC92E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrangeCostBook/Pods-OrangeCostBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrangeCostBook/Pods-OrangeCostBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrangeCostBook/Pods-OrangeCostBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AB830872322A9B500F51972 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -509,6 +640,7 @@
 				1AD91ACF232D3BC800810AFF /* SettingsView.swift in Sources */,
 				1A356B88232CDFB9006C092A /* AboutView.swift in Sources */,
 				1A96B99423535A9E00371DE0 /* LockProtectSettingView.swift in Sources */,
+				1AC3712823B76C8B008D28AE /* Cost.swift in Sources */,
 				1A872A1623694F4000152430 /* SwiftUIExtension.swift in Sources */,
 				1AB830BF2322AA1500F51972 /* CostItem.swift in Sources */,
 				1A872A122369268A00152430 /* CostBook.swift in Sources */,
@@ -695,6 +827,7 @@
 		};
 		1AB830B62322A9B700F51972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A21341F877AEBF9AC7456AB /* Pods-OrangeCostBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OrangeCostBook/OrangeCostBook.entitlements;
@@ -708,7 +841,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.qpomelo.OrangeCostBook;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.qpomelo.BillMagr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -718,6 +851,7 @@
 		};
 		1AB830B72322A9B700F51972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D0A6251A7A6AF666C0DEE6 /* Pods-OrangeCostBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OrangeCostBook/OrangeCostBook.entitlements;
@@ -731,7 +865,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.qpomelo.OrangeCostBook;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.qpomelo.BillMagr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -741,6 +875,7 @@
 		};
 		1AB830B92322A9B700F51972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F66B2A6079F844A8B967B9 /* Pods-OrangeCostBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -763,6 +898,7 @@
 		};
 		1AB830BA2322A9B700F51972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE6C34391BD5E77F5DB37E4 /* Pods-OrangeCostBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -785,6 +921,7 @@
 		};
 		1AB830BC2322A9B700F51972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA63338869C1B18BB2914F6B /* Pods-OrangeCostBook-OrangeCostBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -805,6 +942,7 @@
 		};
 		1AB830BD2322A9B700F51972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216B48167A402B037389A581 /* Pods-OrangeCostBook-OrangeCostBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -863,38 +1001,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1A3A00E22372C77700A93E48 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-		1A872A0E236925D600152430 /* XCRemoteSwiftPackageReference "SQLite" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.12.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1A3A00E32372C77700A93E48 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1A3A00E22372C77700A93E48 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		1A872A0F236925D600152430 /* SQLite */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1A872A0E236925D600152430 /* XCRemoteSwiftPackageReference "SQLite" */;
-			productName = SQLite;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AB830832322A9B500F51972 /* Project object */;
 }

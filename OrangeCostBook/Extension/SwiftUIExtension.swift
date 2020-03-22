@@ -24,9 +24,6 @@ extension View {
         let newController = mainSB.instantiateViewController(withIdentifier: viewIdentifier)
         newController.modalPresentationStyle = .overCurrentContext
         currentWindow.rootViewController?.present(newController, animated: animated, completion: nil)
-        /*let navigationController = UINavigationController(rootViewController: newController)
-        navigationController.modalPresentationStyle = .overCurrentContext// .fullScreen
-        currentWindow.rootViewController?.present(navigationController, animated: true)*/
     }
     
     func presentUIKitView(fromStoryboard: String, viewIdentifier: String) {

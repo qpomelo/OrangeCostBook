@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+//MARK: 欢迎向导
+// 1. 提示设置默认账本货币

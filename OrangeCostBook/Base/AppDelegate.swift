@@ -21,13 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // 初始化内置类型
-        do {
+        /*do {
             let typesJsonPath = Bundle.main.url(forResource: "InternalTypes", withExtension: "json")!
             let typeAndGroup = try JSONDecoder().decode(TypeGroups.self, from: Data.init(contentsOf: typesJsonPath))
             CostType.shared = typeAndGroup
         } catch {
             exit(0)
-        }
+        }*/
         
         
     }
