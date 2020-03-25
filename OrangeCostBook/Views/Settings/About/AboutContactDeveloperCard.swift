@@ -24,6 +24,7 @@ struct AboutContactDeveloperCard: View {
                         .font(Font.custom("PingFangSC-Medium", size: 12))
                         .foregroundColor(Color("List Card GroupTitle FontColor"))
                         .padding(.top, 16)
+                        .padding(.leading, 24)
                     Spacer()
                 }
                 
@@ -99,18 +100,6 @@ struct AboutContactDeveloperCard: View {
                     }
                     .padding(.top, 16)
                 }
-                
-                // 退款提示
-                HStack {
-                    
-                    Text("如果您要退款此 app，请您与 Apple 联系")
-                        .font(Font.custom("PingFangSC", size: 12))
-                        .foregroundColor(Color("List Card ItemTitle FontColor"))
-        
-                    Spacer()
-                    
-                }
-                .padding(.top, 16)
                 .padding(.bottom, 20)
                 
             }

@@ -13,7 +13,7 @@ struct QUNavigationButton: View {
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
     var colorName: String = "NavigationBar DefaultButton BackgroundColor"
-    var icon: Image = Image(systemName: "arrow.left")
+    var icon: Image = Image("BackButton")
     
     var body: some View {
         Button(action: {

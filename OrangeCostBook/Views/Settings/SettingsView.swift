@@ -16,6 +16,33 @@ struct SettingsView: View {
                 QUNavigationBar(title: "设置")
                 ScrollView {
                     
+                    NavigationLink(destination: BuyProView()) {
+                        ZStack {
+                            
+                            Rectangle()
+                                .foregroundColor(Color("Settings Unlock Pro Background Color"))
+                                .cornerRadius(10)
+                            
+                            HStack {
+                                
+                                Image("SettingsItemIconPro")
+                                    .padding(.leading, 22)
+                                
+                                Text("解锁完整版")
+                                    .font(Font.custom("PingFangSC", size: 14))
+                                    .foregroundColor(Color("Settings Unlock Pro TextColor"))
+                                    .padding(.leading, 18)
+                                
+                                Spacer()
+                                
+                                
+                            }.frame(height: 52)
+                            
+                        }
+                        .padding(.leading, 20)
+                        .padding(.trailing, 20)
+                    }
+                    
                     ZStack {
                         
                         Rectangle()
@@ -27,13 +54,18 @@ struct SettingsView: View {
                                 SettingsItemView(iconName: "SettingsItemIconCloud", title: "备份与同步")
                             }
                             
-                            // SettingsItemView(iconName: "SettingsItemIconTheme", title: "主题")
+                            SettingsItemView(iconName: "SettingsItemIconTheme", title: "个性化")
+                            
+                            SettingsItemView(iconName: "SettingsItemIconCostType", title: "账单分类")
                             
                             SettingsItemView(iconName: "SettingsItemIconNotify", title: "通知与 Siri 捷径")
                             
                             NavigationLink(destination: LockProtectSettingView(hasPasswd: false)) {
                                 SettingsItemView(iconName: "SettingsItemIconLock", title: "密码保护")
                             }
+                            
+                            SettingsItemView(iconName: "SettingsItemIconConvert", title: "汇率转换")
+                            
                         }
                         .padding(.top, 10)
                         .padding(.bottom, 10)
@@ -65,32 +97,30 @@ struct SettingsView: View {
                     .padding(.leading, 20)
                     .padding(.trailing, 20)
                     
-                    
+                    // Pigeon by QPomelo
+                    HStack(spacing: 0) {
+                        Spacer()
+                        Text("橙子账本")
+                            .font(Font.custom("PingFangSC-Medium", size: 10))
+                            .opacity(0.5)
+                        Text("by QPomelo")
+                            .font(Font.custom("Futura", size: 10))
+                            .opacity(0.25)
+                            .padding(.leading, 4)
+                        
+                        Spacer()
+                    }
+                    .padding(.top, 24)
+                    .padding(.bottom, 30)
+
                 }
             }
             
-            VStack {
-                Spacer()
-                
-                Button(action: {}) {
-                    VStack {
-                        Image("SettingsAchievementListLink")
-                            .foregroundColor(.clear)
-                        Text("我的成就")
-                            .foregroundColor(Color("Button Default FontColor"))
-                            .font(Font.custom("PingFangSC-Medium", size: 13))
-                    }
-                }
-                
-                Rectangle()
-                    .frame(height: 40)
-                    .foregroundColor(.clear)
-                
-            }
+            
             
         }
-            .navigationBarTitle(Text("Title")) // Add this line
-            .navigationBarHidden(true)
+        .navigationBarTitle(Text("Title")) // Add this line
+        .navigationBarHidden(true)
         
     }
 }

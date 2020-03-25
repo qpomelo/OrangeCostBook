@@ -15,22 +15,19 @@ struct AboutAppCard: View {
             Rectangle()
                 .fill(LinearGradient(gradient: Gradient(colors: [Color("AboutBackground StartColor"), Color("AboutBackground EndColor")]), startPoint: .topLeading, endPoint: .bottomTrailing))
                 .cornerRadius(10)
-                
-                .shadow(color: Color("About Card ShadowColor"), radius: 10, x: 0, y: 5)
                 .frame(height: 232, alignment: .leading)
             
-            HStack{
+            VStack{
                 Spacer()
-                Image("AboutBackground")
+                Image("About View Banner Background Image")
             }
             
             HStack {
                 Spacer()
                 VStack(alignment: .trailing) {
-                    Text("1.0.0 Developer Beta")
-                        .font(Font.custom("PingFangSC", size: 14))
+                    Text("1.0.0 Early Alpha")
+                        .font(Font.custom("PingFangSC-Medium", size: 14))
                         .opacity(0.2)
-                        // .multilineTextAlignment(.trailing)
                         .lineLimit(1)
                     Spacer()
                 }
@@ -42,7 +39,7 @@ struct AboutAppCard: View {
                 Spacer()
                 
                 HStack {
-                    Text("橙子记账")
+                    Text("橙子账本")
                         .font(Font.custom("PingFangSC-Medium", size: 28))
                         .foregroundColor(.white)
                     Spacer()

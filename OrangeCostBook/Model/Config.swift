@@ -25,7 +25,7 @@ class Config {
         self.value = value
     }
     
-    static func updateConfig(_ config: Config, book: CostBook) -> Bool {
+    static func updateConfig(_ config: Config) -> Bool {
         let configTable = Table("config")
         let nameC = Expression<String>("name")
         let valueC = Expression<String>("value")
@@ -42,7 +42,7 @@ class Config {
         return true
     }
     
-    static func deleteConfig(_ config: Config, book: CostBook) -> Bool {
+    static func deleteConfig(_ config: Config) -> Bool {
         let configTable = Table("config")
         let nameC = Expression<String>("name")
         
@@ -57,7 +57,7 @@ class Config {
         return true
     }
     
-    static func insertConfig(_ config: Config, book: CostBook) -> Bool {
+    static func insertConfig(_ config: Config) -> Bool {
         let configTable = Table("config")
         let nameC = Expression<String>("name")
         let valueC = Expression<String>("value")
@@ -74,7 +74,7 @@ class Config {
         return true
     }
     
-    static func getConfig(_ name: String, book: CostBook) -> Config? {
+    static func getConfig(_ name: String) -> Config? {
         let configTable = Table("config")
         let nameC = Expression<String>("name")
         let valueC = Expression<String>("value")
